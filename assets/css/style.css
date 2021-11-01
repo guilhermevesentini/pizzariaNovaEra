@@ -203,6 +203,9 @@ a {
   font-size: 2rem;
   text-align: center;
 }
+.mapa__titulo  p{
+  margin-top: 2rem;
+}
 .mapa__conteudo {
   display: flex;
   justify-content: center;
