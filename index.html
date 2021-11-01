@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizzaria Nova Era</title>
 
-  <pnk rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./fontawesome/css/all.css">
 
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="./assets/css/galeria.css">
 </head>
 <body>
+
+  <!-- Conteudo header / Menu -->
 <header class="header">
   <nav class="navbar">
       <a href="#" class="nav__logo"><img src="./assets/img/novaeralogo.png" alt="Logo" width="120px"></a>
@@ -32,7 +34,7 @@
               <a href="#" class="nav__link">Cardápio</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=5511995789606&app=facebook&entry_point=page_cta&fbclid=IwAR2ZEqB0adx0QoYD3KBy31wpREkNRyP6LY_iOzmx0-RbRRRpS3QNKOK82BA" target="_blank" class="nav__link">Whatsapp</a>
         </li>
       </ul>
       <div class="hamburger">
@@ -51,8 +53,12 @@
       </div>
       <div class="principal__conteudo">
         <h1>A melhor pizzaria da região</h1>
-        <a href="/"><h3>Ver Cardápio</h3></a>
-        <a href="/"><h3>Peça pelo Whastapp</h3></a>
+        <a href="./assets/img/flayer.pdf" download="Flayer">
+          <h3 class="principal__btn">Ver Cardápio</h3>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5511995789606&app=facebook&entry_point=page_cta&fbclid=IwAR2ZEqB0adx0QoYD3KBy31wpREkNRyP6LY_iOzmx0-RbRRRpS3QNKOK82BA" target="_blank">
+          <h3 class="principal__btn">Peça pelo Whastapp</h3>
+        </a>
       </div>
     </div>    
   </section>
@@ -77,20 +83,35 @@
 
   </section>
 
-  <!-- Conteudo promocoes  
+  <!-- Conteudo promocoes 
   <section>
     <div class="promocoes">
-      <div class="promocoes__titulo"><h2>Promoções</h2></div>
+      <div class="promocoes__titulo"><h2>Promoçoes</h2></div>
       <div class="promocoes__container">
-        <div class="promocoes__promocao1"><p>Borda grátis de catupiry</p></div>
-        <div class="promocoes__promocoes1_1">
-          <h3>*Quando solicitado</h3>
-          <h3>*Exceto vésperas e feriados</h3>
+        <div class="promocoes__box">
+          <h3>Borda Grátis de Catupiry</h3>
+          <p>*Quando solicitado</p>
+          <p>*Exceto vésperas e feriados</p>
+        </div>
+        <div class="promocoes__box">
+          <h3>Promoção Pizza de Terça e Quarta</h3>
+          <p>Pizzas no valor de 29,00</p>
+          <p>Baiacatu</p>
+          <p>Marguerita</p>
+          <p>Mussarela</p>
+          <p>Napolitana</p>
+          <p>Catupiry</p>
+          <p>Calabresa</p>
+          <p>Bauru</p>
+          <p>Milho</p>
+
         </div>
       </div>
+      
     </div>
   </section>-->
   
+
   <!-- Conteudo galeria -->
   <section class="galeria">
     <div class="galeria__titulo"><h2>Galeria de fotos</h2></div>
@@ -107,6 +128,7 @@
     </div>
   </section>
 
+  
   <!-- Conteudo localização -->
   <section>
     <div class="mapa">
@@ -123,40 +145,28 @@
 
   <!-- Conteudo footer -->
   <section>
-    <footer class="footer">
-      <div class="footer__conteudo"> 
+      <div class="footer">
         <div class="footer__container">
-          <div class="footer__contato">
-            <ul>
-              <img src="./assets/img/novaeralogo.png" alt="Logo Pizzaria nova era" width="150px">
-            </ul>
-          </div>
-        </div>       
-        <div class="footer__container">
-          <div class="footer__contato">
-            <p class="footer__titulo">Contato</p>
-            <ul>
-              <li>Tel: 2094-3995</li>
-              <li>Tel: 2091-7284</li>
-              <li>Tel: 2924-9678</li>
-              <li>Whatsapp: 99578-9606</li>
-            </ul>
-          </div>
+          <img src="./assets/img/novaeralogo.png" alt="Logo Nova Era" width="200px">
+          <h3>A pizzaria Nova era está pronta para te oferecer o melhor da Pizza e Sobremesa.</h3>
         </div>
-        <div class="footer__container">
-          <div class="footer__endereço">
-            <p class="footer__titulo">Endereço</p>
-            <ul>
-              <li>Rua Estrada velha da penha, 240</li>
-              <li>Tatuapé - São Paulo</li>
-            </ul>
-          </div>
+        <div class="footer__links">
+          <div class="footer__links__itens">Home</div>
+          <div class="footer__links__itens">Pizzaria</div>
+          <div class="footer__links__itens">Doces</div>
+          <div class="footer__links__itens">Cardápio</div>
         </div>
+        <div class="footer__links">
+          <div class="footer__links__itens"><a href="https://www.facebook.com/novaerapizzaria/" target="_blank"><i class="fab fa-facebook-square"></a></i></div>
+          <div class="footer__links__itens"><a href="#"><i class="fab fa-instagram-square" target="_blank"></a></i></div>
+          <div class="footer__links__itens"><a href="https://api.whatsapp.com/send?phone=5511995789606&app=facebook&entry_point=page_cta&fbclid=IwAR12riwD5MFQLRR2jS8xxcxza1e3iTnXDWF4K7wEnXcb87JZwcIP5sZcXME" target="_blank"><i class="fab fa-whatsapp-square" target="_blank"></a></i></div>
+        </div>
+        
       </div>
-    </footer>
   </section>
 </main>
 
  <script src="./js/hambuguer.js"></script>
+ <script src="./fontawesome/js/all.js"></script>
 </body>
 </html>

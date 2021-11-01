@@ -47,7 +47,7 @@ a {
 }
 
 .nav__item {
-  margin-left: 5rem;
+  margin: 2rem;
 }
 
 .nav__link{
@@ -56,9 +56,10 @@ a {
   color: #475569;
 }
 
-.nav__link:hover{
-  color: crimson;
-  border-bottom: 1px solid crimson;
+.nav__link:hover {
+  background: #deb887;
+  padding: 1rem 0;
+  color: white;
 }
 
 .nav__logo {
@@ -94,7 +95,7 @@ a {
   padding-bottom: 1rem;
   border-bottom: 1px solid crimson;
 }
-.principal h3 {
+.principal__btn {
   color: black;
   text-align: left;
   margin: 5rem 5rem;
@@ -102,8 +103,9 @@ a {
   background-color: #deb887;
   width: 60%;
 }
-h3:hover {
+.principal__btn:hover {
   background-color: #ca8934;
+  color: white;
   cursor: pointer;
 }
 
@@ -169,6 +171,29 @@ h3:hover {
   font-size: 2rem;
   text-align: center;
 }
+.promocoes__container {
+  display: flex;  
+  justify-content: space-between;
+  margin: 2rem 10%;
+}
+.promocoes__box {
+  width: 40%;
+  margin: 2rem 2rem;
+  height: auto;
+  background-color: #ca8934;
+}
+.promocoes__box h3 {
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+.promocoes__box p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
 
 /* Mapa */
 .mapa {
@@ -187,25 +212,31 @@ h3:hover {
 /* Footer */
 .footer {
   margin-bottom: 0;
+  background-color: #010101;
   height: auto;
-  background-color: rgb(34, 34, 34);
-}
-.footer__conteudo {
-  display: flex;
-  justify-content: center;
-  color: white;
-  padding-bottom: 1rem;
-  
 }
 .footer__container {
-  width: 20%;
-  margin: 2rem 2rem 0 0;
-  text-align: left;
+  text-align: center;
 }
-.footer__titulo {
-  font-size: 1.5rem;
+.footer__container h3 {
+  text-align: center;
+  color: white;
 }
-.footer__container li {
-  font-size: 1rem;
-  margin: 2rem 0;
+.footer__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__links__itens {
+  color: white;
+  padding: 2rem;
+  font-size: 2rem;
+}
+.footer__links__itens:hover {
+  background: #ca8934;
+  cursor: pointer;
+}
+.footer__links__itens a {
+  text-decoration: none;
+  color: white;
 }

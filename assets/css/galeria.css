@@ -88,3 +88,7 @@
   height: 100%;
   grid-area: 3 / 3;
 }
+.galeria__imagem:hover {
+  box-shadow: 0 10px 20px #ca8934;
+  
+}
