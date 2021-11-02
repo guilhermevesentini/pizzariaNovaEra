@@ -1,42 +1,4 @@
-@media only screen and (max-width: 1400px) {
-    .nav__menu {
-        position: fixed;
-        left: -100%;
-        top: 10rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-        0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-    
-    .nav__menu.active {
-        left: 0;
-    }
-    
-    .nav__item {
-        margin: 2.5rem 0;
-    }
-    
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-    
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-    
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-}
+
 @media only screen and (max-width: 800px) {
     .navbar {
         padding: 0;
@@ -59,7 +21,7 @@
     .principal h1{
         color: black;
         text-align: center;
-        margin: 2rem 2rem;
+        margin: 4rem 2rem;
         border-bottom: 1px solid crimson;
     }
     .principal h3 {
@@ -69,39 +31,26 @@
         background-color: #deb887;
         width: 85%;
     }
-    .sobre__titulo {
-        font-size: 2rem;
-        text-align: center;
-        width: 100%;
-        padding: 0 2rem;
-    }
     .sobre p {
-        margin: 2rem 5%;
+        margin: 2rem 0;
         font-size: 2rem;
         text-align: center;
     }
     .sobre__imagens {
-        display: inline-block;
         width: 100%;
     }
     .sobre__imagem___item {
-        background-image: url(../img/imagem.jpg);
+        background-image: url(../img/imagem17.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
         height: 300px;
-        margin: 0 0;
     }
-    .sobre__imagem___item:nth-child(2n), .sobre__imagem___item:nth-child(3n) {
+    .sobre__imagem___item:nth-child(2n),
+    .sobre__imagem___item:nth-child(3n) {
         display: none;
     }
-    
-    .galeria__titulo {
-        font-size: 2rem;
-        text-align: center;
-        padding: 0 2rem;
-    }
     .galeria__grid{
         display: grid;  
         grid-template-columns: 100%;
@@ -116,17 +65,14 @@
         grid-auto-rows: 200px;
         grid-gap: 1rem;
         margin: 2rem auto;  
-    }
-    .mapa__titulo {
-        font-size: 2rem;
-        text-align: center;
-        padding: 0 2rem;
     }
     .footer__container {
         text-align: center;
+        margin: 0 10%;
     }
     .footer__container h3 {
         text-align: center;
+        justify-content: center;
         margin: 1rem;
     }
     .footer__links {
@@ -138,6 +84,8 @@
     .footer__redesSociais {
         display: flex;
     }
+
+    
     
 }
 @media only screen and (min-width: 801px) {

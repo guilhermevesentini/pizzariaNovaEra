@@ -4,10 +4,6 @@
   border-bottom: 2px solid #E2E8F0;
   padding-bottom: 4rem;
 }
-.galeria__titulo {
-  font-size: 2rem;
-  text-align: center;
-}
 /*.galeria__grid{
   display: grid;  
   grid-template-columns: 33.33% 33.33% 33.33%;

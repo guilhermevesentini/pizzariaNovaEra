@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/responsivo.css">
+  <link rel="stylesheet" href="./assets/css/navbar_responsivo.css">
   <link rel="stylesheet" href="./assets/css/variavel.css">
   <link rel="stylesheet" href="./assets/css/galeria.css">
 </head>
@@ -22,16 +23,16 @@
       <a href="#" class="nav__logo"><img src="./assets/img/novaeralogo.png" alt="Logo" width="120px"></a>
       <ul class="nav__menu">
         <li class="nav__item">
-          <a href="#" class="nav__link">Home</a>
+          <a href="index.html" class="nav__link">Home</a>
         </li>
         <li class="nav__item">
-          <a href="#" class="nav__link">Pizzaria</a>
+          <a href="pizzaria.html" class="nav__link">Pizzaria</a>
         </li>
         <li class="nav__item">
-          <a href="#" class="nav__link">Doces</a>
+          <a href="doces.html" class="nav__link">Doces</a>
         </li>
         <li class="nav__item">
-          <a href="#" class="nav__link">Cardápio</a>
+          <a href="cardapio.html" class="nav__link">Cardápio</a>
         </li>
         <li class="nav__item">
           <a href="https://api.whatsapp.com/send?phone=5511995789606&app=facebook&entry_point=page_cta&fbclid=IwAR2ZEqB0adx0QoYD3KBy31wpREkNRyP6LY_iOzmx0-RbRRRpS3QNKOK82BA" target="_blank" class="nav__link">Whatsapp</a>
@@ -44,7 +45,7 @@
       </div>
     </nav>
   </header>
-  
+   <!-- Conteudo principal --> 
   <main>
     <!-- Conteudo principal -->
     <section class="principal">
@@ -52,25 +53,26 @@
         <div class="principal__imagem">
         </div>
         <div class="principal__conteudo">
-          <h1>A melhor pizzaria da região</h1>
+          <h1>A Melhor Pizzaria da Região</h1>
           <a href="./assets/img/flayer.pdf" download="Flayer">
-            <h3 class="principal__btn">Ver Cardápio</h3>
+            <h3 class="principal__btn">Cardápio</h3>
           </a>
           <a href="https://api.whatsapp.com/send?phone=5511995789606&app=facebook&entry_point=page_cta&fbclid=IwAR2ZEqB0adx0QoYD3KBy31wpREkNRyP6LY_iOzmx0-RbRRRpS3QNKOK82BA" target="_blank">
-            <h3 class="principal__btn">Peça pelo Whastapp</h3>
+            <h3 class="principal__btn">Whastapp</h3>
           </a>
         </div>
       </div>    
     </section>
     
     <!-- Conteudo sobre nos -->
-    <section>
+    <section class="container">
       <div class="sobre">
-        <div class="sobre__titulo">
+        <div class="secao__titulo">
           <img src="./assets/img/novaeralogo.png" alt="Logo Pizzaria nova era" width="200px">
-          <h2>A pizzaria Nova Era</h2>
-        </div>      
-        <p>A pizzaria Nova Era tem o comprometimento total com nossos clientes, para podermos oferecer pizzas, esfihas, doces, com a melhor qualidade desde os produtos, preparo e a entrega.</p>
+          <h2>A Pizzaria Nova Era</h2>
+          <p>A Pizzaria Nova Era tem o comprometimento total com nossos clientes, para podermos oferecer pizzas, esfihas, doces, com a melhor qualidade desde os produtos, preparo e a entrega.</p>
+        </div>   
+        
         <div class="sobre__imagens">
           <div class="sobre__imagem___item">
           </div>
@@ -81,57 +83,30 @@
         </div>
       </div>      
     </section>
-    
-    <!-- Conteudo promocoes 
-      <section>
-        <div class="promocoes">
-          <div class="promocoes__titulo"><h2>Promoçoes</h2></div>
-          <div class="promocoes__container">
-            <div class="promocoes__box">
-              <h3>Borda Grátis de Catupiry</h3>
-              <p>*Quando solicitado</p>
-              <p>*Exceto vésperas e feriados</p>
-            </div>
-            <div class="promocoes__box">
-              <h3>Promoção Pizza de Terça e Quarta</h3>
-              <p>Pizzas no valor de 29,00</p>
-              <p>Baiacatu</p>
-              <p>Marguerita</p>
-              <p>Mussarela</p>
-              <p>Napolitana</p>
-              <p>Catupiry</p>
-              <p>Calabresa</p>
-              <p>Bauru</p>
-              <p>Milho</p>
-              
-            </div>
-          </div>
-          
-        </div>
-      </section>-->
-      
-      
+     
     <!-- Conteudo galeria -->
-    <section class="galeria">
-      <div class="galeria__titulo"><h2>Galeria de fotos</h2></div>
-      <div class="galeria__grid">
-        <div class="galeria__imagem"></div>
-        <div class="galeria__imagem"></div>
-        <div class="galeria__imagem"></div>
-        <div class="galeria__imagem"></div>
-        <div class="galeria__imagem"></div>
-        <div class="galeria__imagem"></div>
-        <div class="galeria__imagem"></div>
-        <div class="galeria__imagem"></div>
-        <div class="galeria__imagem"></div>
+    <section class="container">
+      <div class="galeria">
+        <div class="secao__titulo"><h2>Galeria de fotos</h2></div>
+        <div class="galeria__grid">
+          <div class="galeria__imagem"></div>
+          <div class="galeria__imagem"></div>
+          <div class="galeria__imagem"></div>
+          <div class="galeria__imagem"></div>
+          <div class="galeria__imagem"></div>
+          <div class="galeria__imagem"></div>
+          <div class="galeria__imagem"></div>
+          <div class="galeria__imagem"></div>
+          <div class="galeria__imagem"></div>
+        </div>
       </div>
     </section>
       
       
     <!-- Conteudo localização -->
-    <section>
+    <section class="container">
       <div class="mapa">
-        <div class="mapa__titulo">
+        <div class="secao__titulo">
           <h2>Atendemos em toda a região</h2>
           <p>Tatuapé / Penha / Maranhão / Carrão</p>
         </div>
@@ -141,34 +116,31 @@
         </div>   
       </div>
     </section>
-      
-    <!-- Conteudo footer -->
-    <section>
-      <div class="footer">
-        <div class="footer__container">
-          <img src="./assets/img/novaeralogo.png" alt="Logo Nova Era" width="200px">
-          <h3>A pizzaria Nova era está pronta para te oferecer o melhor da Pizza e Sobremesa.</h3>
-        </div>
-        <div class="footer__links">
-          <div class="footer__links__itens">Home</div>
-          <div class="footer__links__itens">Pizzaria</div>
-          <div class="footer__links__itens">Doces</div>
-          <div class="footer__links__itens">Cardápio</div>
-        </div>
-        <div class="footer__links footer__redesSociais">
-          <div class="footer__links__itens"><a href="https://www.facebook.com/novaerapizzaria/" target="_blank"><i class="fab fa-facebook-square"></a></i></div>
-          <div class="footer__links__itens"><a href="#"><i class="fab fa-instagram-square" target="_blank"></a></i></div>
-          <div class="footer__links__itens"><a href="https://api.whatsapp.com/send?phone=5511995789606&app=facebook&entry_point=page_cta&fbclid=IwAR12riwD5MFQLRR2jS8xxcxza1e3iTnXDWF4K7wEnXcb87JZwcIP5sZcXME" target="_blank"><i class="fab fa-whatsapp-square" target="_blank"></a></i></div>
-        </div>
-        <div class="footer__copyright">
-          <h4>&copy; Copyright 2021 / Desenvolvido por <a href="https://github.com/guilhermevesentini" target="_blank">Guilherme Vesentini</a></h4>
-        </div>
-      </div>
-    </section>
-    
   </main>
-    
-    <script src="./js/hambuguer.js"></script>
-    <script src="./fontawesome/js/all.js"></script>
+  <!-- Conteudo footer -->
+  <footer>
+    <div class="footer">
+      <div class="footer__container">
+        <img src="./assets/img/novaeralogo.png" alt="Logo Nova Era" width="200px">
+        <h3>A Pizzaria Nova era está pronta para te oferecer o melhor da Pizza e Sobremesa.</h3>
+      </div>
+      <div class="footer__links">
+        <div class="footer__links__itens">Home</div>
+        <div class="footer__links__itens">Pizzaria</div>
+        <div class="footer__links__itens">Doces</div>
+        <div class="footer__links__itens">Cardápio</div>
+      </div>
+      <div class="footer__links footer__redesSociais">
+        <div class="footer__links__itens"><a href="https://www.facebook.com/novaerapizzaria/" target="_blank"><i class="fab fa-facebook-square"></a></i></div>
+        <div class="footer__links__itens"><a href="#"><i class="fab fa-instagram-square" target="_blank"></a></i></div>
+        <div class="footer__links__itens"><a href="https://api.whatsapp.com/send?phone=5511995789606&app=facebook&entry_point=page_cta&fbclid=IwAR12riwD5MFQLRR2jS8xxcxza1e3iTnXDWF4K7wEnXcb87JZwcIP5sZcXME" target="_blank"><i class="fab fa-whatsapp-square" target="_blank"></a></i></div>
+      </div>
+      <div class="footer__copyright">
+        <h4>&copy; Copyright 2021 / Desenvolvido por <a href="https://github.com/guilhermevesentini" target="_blank">Guilherme Vesentini</a></h4>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/hambuguer.js"></script>
+  <script src="./fontawesome/js/all.js"></script>
   </body>
   </html>

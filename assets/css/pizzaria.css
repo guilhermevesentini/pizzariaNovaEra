@@ -1,0 +1,91 @@
+.pizzaria {
+    margin: 2rem 0;
+}
+.pizzaria__titulo {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+.pizzaria__grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 100px;
+    margin: 0 4rem;
+    grid-gap: 1rem;    
+}
+.pizzaria__grid___item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    
+}
+.pizzaria__icon{
+    width: 10%;
+    font-size: 35px;
+    margin: 2rem 0;
+    padding: 25px 10px;
+    text-align: center;
+    border: 1px solid #deb887;
+    background-color: #deb887;
+}
+.pizzaria__grid___item____box {
+    width: 90%;
+    margin: 2rem 0;
+    padding-left: 20px;
+    padding-top: 30px;
+    height: 94px;
+    align-items: center;
+    text-align: left;
+    background-color: #f8f2e9;
+}
+.pizzaria__grid___item____box h4{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    
+}
+.pizzaria__grid___item____box p {
+    font-size: 1rem;
+}
+@media only screen and (max-width:1400px) {
+    .pizzaria__grid {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10%;
+        grid-template-columns: 100%;
+        grid-auto-rows: 120px;
+    }
+    .pizzaria__grid___item {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        width: 100%;        
+    }
+    .pizzaria__icon{
+        width: 10%;
+        font-size: 35px;
+        margin: 2rem 0;
+        padding: 25px 10px;
+        text-align: center;
+        border: 1px solid #deb887;
+        background-color: #deb887;
+    }
+    .pizzaria__grid___item____box {
+        width: 100%;
+        margin: 2rem 0;
+        padding: 25px 0 30px 20px;
+        text-align: left;
+        background-color: #f8f2e9;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width:900px) {
+    .pizzaria__icon{
+        display: none;
+    }
+    .pizzaria__grid___item____box {
+        height: 120px;
+    }
+}
