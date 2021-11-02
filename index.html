@@ -13,10 +13,24 @@
   <script language="JavaScript">
     function protegercodigo() {
     if (event.button==2||event.button==3){
-        alert('Codigo protegido!');}
+        alert('Código protegido! :)');}
     }
     document.onmousedown=protegercodigo
   </script>
+  <script>
+    document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            alert('Código protegido');
+            return false;
+        } else {
+            return true;
+        }
+};
+    </script>
 </head>
 <body>
   
