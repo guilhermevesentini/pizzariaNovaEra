@@ -10,6 +10,13 @@
   
   <link rel="stylesheet" href="base.css">
   
+  <script language="JavaScript">
+    function protegercodigo() {
+    if (event.button==2||event.button==3){
+        alert('Codigo protegido!');}
+    }
+    document.onmousedown=protegercodigo
+  </script>
 </head>
 <body>
   
@@ -139,21 +146,5 @@
   <script src="./js/hambuguer.js"></script>
   <script src="./fontawesome/js/all.js"></script>
 
-    <script>
-    document.onmousedown=disableclick;
-    function disableclick(e)
-    {
-      if(event.button==2){
-        return false;
-      }
-    };
-    </script>
-    <script>
-      document.onkeydown = function(e) {
-        if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 123))
-      { return false;
-        }
-      };
-      </script>
   </body>
   </html>
